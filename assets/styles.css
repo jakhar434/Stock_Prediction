@@ -40,7 +40,7 @@ body {
     width: 100px;
     height: 40px;
     font-size: 16px;
-    background-color: #E4002B;
+    background-color: #33346c;
     color: white;
     border: none;
     border-radius: 0 5px 5px 0;
@@ -48,7 +48,7 @@ body {
 }
 
 .nav .stock-input button:hover {
-    background-color: #BA0C2F;
+    background-color: #3c2c7f;
 }
 
 .nav .date-input {
@@ -69,7 +69,7 @@ body {
     height: 40px;
     font-size: 16px;
     margin-right: 20px;
-    background-color: #E4002B;
+    background-color: #3c2c7f;
     color: white;
     border: none;
     border-radius: 5px;
