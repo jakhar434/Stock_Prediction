@@ -32,15 +32,19 @@ item1 = html.Div(
         html.Div([
             # Date range picker input
             dcc.DatePickerRange(
-                id='date-range', start_date=dt(2020, 1, 1).date(), end_date=dt.now().date(), className='date-input')
+                id='date-range', start_date=dt(2023, 1, 1).date(), end_date=dt.now().date(), className='date-input')
         ]),
         html.Div([
             # Stock price button
             html.Button('Get Stock Price', id='stock-price-button'),
 
             # Indicators button
-            html.Button('Get Indicators', id='indicators-button'),
+            html.Button('Get Indicators', id='indicators-button')
 
+        ], className="selectors"),
+
+         html.Div([
+           
             # Number of days of forecast input
             dcc.Input(id='forecast-days', type='number', placeholder='Enter number of days'),
 
