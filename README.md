@@ -23,7 +23,8 @@ The dependencies can be installed by running the following command in your Pytho
 ```
 pip install -r requirements.txt
 ```
-then python app.py
+```
+python app.py
 ```
 
 ## Conclusion
