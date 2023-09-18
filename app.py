@@ -21,7 +21,7 @@ server = app.server
 # Navigation component
 item1 = html.Div(
     [
-        html.P("Welcome to the Stock Dash App!", className="start"),
+        html.P("Welcome to the Stock Dash!", className="start"),
 
         html.Div([
             # stock code input
@@ -64,7 +64,7 @@ item2 = html.Div(
                 html.H1(id='company-name', className='company-name')
             ],
             className="header"),
-        html.Div(id="description"),
+        html.Div([], id="description"),
         html.Div([], id="graphs-content"),
         html.Div([], id="main-content"),
         html.Div([], id="forecast-content")
